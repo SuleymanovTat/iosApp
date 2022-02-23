@@ -42,6 +42,9 @@
                                         <color key="backgroundColor" name="AccentColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UVp-S8-cT5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xth-mD-aog">
                                 <rect key="frame" x="9" y="130" width="95" height="95"/>
@@ -57,6 +60,9 @@
                                         <color key="backgroundColor" name="AccentColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yZl-Ij-7xc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbD-6M-Pgz">
                                 <rect key="frame" x="215" y="130" width="95" height="95"/>
@@ -72,6 +78,9 @@
                                         <color key="backgroundColor" name="AccentColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z6l-eK-7W1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wD9-EC-yTY">
                                 <rect key="frame" x="112.5" y="240" width="95" height="95"/>
@@ -87,6 +96,9 @@
                                         <color key="backgroundColor" name="AccentColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bj7-8A-m30"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9N-LU-LV1">
                                 <rect key="frame" x="9" y="240" width="95" height="95"/>
@@ -102,6 +114,9 @@
                                         <color key="backgroundColor" name="AccentColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pNM-rp-JVm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKm-Ao-6Aj">
                                 <rect key="frame" x="215" y="240" width="95" height="95"/>
@@ -117,6 +132,9 @@
                                         <color key="backgroundColor" name="AccentColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4We-ec-wT1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kX8-Sq-mde">
                                 <rect key="frame" x="112.5" y="350" width="95" height="95"/>
@@ -132,6 +150,9 @@
                                         <color key="backgroundColor" name="AccentColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EaU-dl-YXe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4B0-4B-oUK">
                                 <rect key="frame" x="9" y="350" width="95" height="95"/>
@@ -147,6 +168,9 @@
                                         <color key="backgroundColor" name="AccentColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WIn-t2-oS2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsZ-Dj-h6G">
                                 <rect key="frame" x="215" y="350" width="95" height="95"/>
@@ -162,6 +186,9 @@
                                         <color key="backgroundColor" name="AccentColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xaf-j0-XKk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -191,6 +218,18 @@
                             <constraint firstItem="wD9-EC-yTY" firstAttribute="top" secondItem="wfn-Yv-d1B" secondAttribute="bottom" constant="15" id="zfq-ba-9T6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="buttons" destination="JsZ-Dj-h6G" collectionClass="NSMutableArray" id="PRN-D2-sPG"/>
+                        <outletCollection property="buttons" destination="Xth-mD-aog" collectionClass="NSMutableArray" id="hta-hg-c8V"/>
+                        <outletCollection property="buttons" destination="wfn-Yv-d1B" collectionClass="NSMutableArray" id="lgX-XO-ItE"/>
+                        <outletCollection property="buttons" destination="KbD-6M-Pgz" collectionClass="NSMutableArray" id="Ixk-vQ-fuD"/>
+                        <outletCollection property="buttons" destination="B9N-LU-LV1" collectionClass="NSMutableArray" id="S36-fk-nBg"/>
+                        <outletCollection property="buttons" destination="wD9-EC-yTY" collectionClass="NSMutableArray" id="Ct8-DH-vog"/>
+                        <outletCollection property="buttons" destination="CKm-Ao-6Aj" collectionClass="NSMutableArray" id="6aA-0y-MJb"/>
+                        <outletCollection property="buttons" destination="4B0-4B-oUK" collectionClass="NSMutableArray" id="f05-eb-0fd"/>
+                        <outletCollection property="buttons" destination="kX8-Sq-mde" collectionClass="NSMutableArray" id="7dC-9h-7V1"/>
+                        <outletCollection property="buttons" destination="JsZ-Dj-h6G" collectionClass="NSMutableArray" id="nhg-nN-dT1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
