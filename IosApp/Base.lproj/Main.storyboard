@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IosApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Игра началась" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UU3-Am-kg4">
-                                <rect key="frame" x="80" y="30" width="160" height="40"/>
+                                <rect key="frame" x="134" y="74" width="160" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="5iF-Qv-5Ui"/>
                                     <constraint firstAttribute="width" constant="160" id="sna-Mm-dcB"/>
@@ -29,7 +29,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfn-Yv-d1B">
-                                <rect key="frame" x="112.5" y="130" width="95" height="95"/>
+                                <rect key="frame" x="166.66666666666666" y="174" width="94.999999999999972" height="95"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="95" id="N89-R8-9OA"/>
@@ -47,7 +47,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xth-mD-aog">
-                                <rect key="frame" x="9" y="130" width="95" height="95"/>
+                                <rect key="frame" x="63" y="174" width="95" height="95"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="95" id="LXf-8q-Z9w"/>
@@ -65,7 +65,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbD-6M-Pgz">
-                                <rect key="frame" x="215" y="130" width="95" height="95"/>
+                                <rect key="frame" x="269" y="174" width="95" height="95"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="95" id="bbB-hD-tra"/>
@@ -83,7 +83,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wD9-EC-yTY">
-                                <rect key="frame" x="112.5" y="240" width="95" height="95"/>
+                                <rect key="frame" x="166.66666666666666" y="284" width="94.999999999999972" height="95"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="95" id="mx6-DE-1zW"/>
@@ -101,7 +101,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9N-LU-LV1">
-                                <rect key="frame" x="9" y="240" width="95" height="95"/>
+                                <rect key="frame" x="63" y="284" width="95" height="95"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="95" id="ddi-F2-U2I"/>
@@ -119,7 +119,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKm-Ao-6Aj">
-                                <rect key="frame" x="215" y="240" width="95" height="95"/>
+                                <rect key="frame" x="269" y="284" width="95" height="95"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="95" id="t7a-84-zEe"/>
@@ -137,7 +137,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kX8-Sq-mde">
-                                <rect key="frame" x="112.5" y="350" width="95" height="95"/>
+                                <rect key="frame" x="166.66666666666666" y="394" width="94.999999999999972" height="95"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="95" id="6o6-jg-0hs"/>
@@ -155,7 +155,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4B0-4B-oUK">
-                                <rect key="frame" x="9" y="350" width="95" height="95"/>
+                                <rect key="frame" x="63" y="394" width="95" height="95"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="95" id="0E5-Lo-v8R"/>
@@ -173,7 +173,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsZ-Dj-h6G">
-                                <rect key="frame" x="215" y="350" width="95" height="95"/>
+                                <rect key="frame" x="269" y="394" width="95" height="95"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="95" id="Bn5-zI-AUJ"/>
@@ -190,6 +190,16 @@
                                     <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xaf-j0-XKk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUC-We-oWa">
+                                <rect key="frame" x="134" y="111" width="160" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Tt7-k7-84v"/>
+                                    <constraint firstAttribute="width" constant="160" id="iFw-IS-HQb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -203,6 +213,7 @@
                             <constraint firstItem="KbD-6M-Pgz" firstAttribute="leading" secondItem="wfn-Yv-d1B" secondAttribute="trailing" constant="7.5" id="I8x-dd-58q"/>
                             <constraint firstItem="4B0-4B-oUK" firstAttribute="top" secondItem="B9N-LU-LV1" secondAttribute="bottom" constant="15" id="NGd-Rf-8e1"/>
                             <constraint firstItem="kX8-Sq-mde" firstAttribute="leading" secondItem="4B0-4B-oUK" secondAttribute="trailing" constant="8.5" id="Ssz-kp-rLn"/>
+                            <constraint firstItem="NUC-We-oWa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="X0F-Ha-ICV"/>
                             <constraint firstItem="wD9-EC-yTY" firstAttribute="leading" secondItem="B9N-LU-LV1" secondAttribute="trailing" constant="8.5" id="eaT-ob-D9h"/>
                             <constraint firstItem="wfn-Yv-d1B" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fDq-OC-qxW"/>
                             <constraint firstItem="wfn-Yv-d1B" firstAttribute="top" secondItem="UU3-Am-kg4" secondAttribute="bottom" constant="60" id="fdp-cq-d0j"/>
@@ -214,11 +225,14 @@
                             <constraint firstItem="CKm-Ao-6Aj" firstAttribute="top" secondItem="KbD-6M-Pgz" secondAttribute="bottom" constant="15" id="nwV-Yp-mlL"/>
                             <constraint firstItem="UU3-Am-kg4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="oe8-1O-4LR"/>
                             <constraint firstItem="B9N-LU-LV1" firstAttribute="top" secondItem="Xth-mD-aog" secondAttribute="bottom" constant="15" id="qu3-Dd-Acy"/>
+                            <constraint firstItem="NUC-We-oWa" firstAttribute="top" secondItem="UU3-Am-kg4" secondAttribute="bottom" constant="-3" id="xwT-Xv-EWs"/>
                             <constraint firstItem="kX8-Sq-mde" firstAttribute="top" secondItem="wD9-EC-yTY" secondAttribute="bottom" constant="15" id="zcP-zR-OPU"/>
                             <constraint firstItem="wD9-EC-yTY" firstAttribute="top" secondItem="wfn-Yv-d1B" secondAttribute="bottom" constant="15" id="zfq-ba-9T6"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="nextDigit" destination="NUC-We-oWa" id="yOU-Aw-m2z"/>
+                        <outlet property="statusLabel" destination="UU3-Am-kg4" id="KmA-ls-hUk"/>
                         <outletCollection property="buttons" destination="JsZ-Dj-h6G" collectionClass="NSMutableArray" id="PRN-D2-sPG"/>
                         <outletCollection property="buttons" destination="Xth-mD-aog" collectionClass="NSMutableArray" id="hta-hg-c8V"/>
                         <outletCollection property="buttons" destination="wfn-Yv-d1B" collectionClass="NSMutableArray" id="lgX-XO-ItE"/>
@@ -228,7 +242,6 @@
                         <outletCollection property="buttons" destination="CKm-Ao-6Aj" collectionClass="NSMutableArray" id="6aA-0y-MJb"/>
                         <outletCollection property="buttons" destination="4B0-4B-oUK" collectionClass="NSMutableArray" id="f05-eb-0fd"/>
                         <outletCollection property="buttons" destination="kX8-Sq-mde" collectionClass="NSMutableArray" id="7dC-9h-7V1"/>
-                        <outletCollection property="buttons" destination="JsZ-Dj-h6G" collectionClass="NSMutableArray" id="nhg-nN-dT1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
